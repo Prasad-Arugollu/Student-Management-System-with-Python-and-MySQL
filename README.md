@@ -99,6 +99,102 @@ This Student Management System can be used in educational institutions to effici
 -   **Reporting**: Export student data for generating reports and analytics. 📈
 -   **User Access Control**: Secure the system with login functionality, ensuring that only authorized personnel can access and modify student data. 🛡️
 
+
+
+
+ # 🧭 How to Use (Step-by-Step)
+
+## 1) Launch the App  
+1. Start the server/application.  
+2. Open the app in your browser (e.g., `http://localhost:5000`).  
+
+<img width="1795" height="836" alt="Screenshot 2025-08-16 153802" src="https://github.com/user-attachments/assets/a70adc99-e68b-4393-9637-8a82482aa9cf" />
+
+
+---
+
+## 2) Log In  
+1. Enter **username** and **password**.  
+2. Click **Login** to access the dashboard.  
+
+<img width="1796" height="831" alt="Screenshot 2025-08-16 111207" src="https://github.com/user-attachments/assets/2427e4cd-0ae8-4b82-8590-9dc2891aec61" />
+ 
+
+---
+
+## 3) Dashboard Overview  
+1. Connect to Database
+2. Get the Database connection by filing the fields( **Hostname**, **Username** and **Password**)
+
+<img width="1795" height="829" alt="Screenshot 2025-08-16 111318" src="https://github.com/user-attachments/assets/718d5cdb-4521-4df4-ab73-18c3011064f7" />
+
+
+
+---
+
+## 4) Add a New Student  
+1. Go to **Add Student**  
+2. Fill fields like **ID**, **Name**, **Mobile Number**, **Email**, **Age**, **Class**, **Gender**, **Address**.   
+3. Click **Add Student**.  
+4. Confirm success and that the new student appears in the list.  
+
+<img width="1800" height="826" alt="Screenshot 2025-08-16 154748" src="https://github.com/user-attachments/assets/e782e565-ec39-47ca-ab25-c9f515d401a4" />
+
+
+---
+
+
+## 5) Search Students  
+1. In the list view, type a **ID** or **Name** in the search bar.  
+2. Confirm results filter correctly.  
+
+<img width="1794" height="820" alt="Screenshot 2025-08-16 155335" src="https://github.com/user-attachments/assets/631dcc31-5863-4329-8bbb-8fb2acc4cafe" />
+
+
+---
+
+## 6) Delete a Student (with Confirmation)  
+1. Click **Delete student** 
+2. Confirm the **Are you sure?** modal.  
+3. Verify the record is removed.  
+
+
+
+---
+
+
+## 7) Update a Student  
+1. click **Update Student** 
+2. Modify fields.  
+3. Click **Update** and verify the changes.  
+
+<img width="1792" height="829" alt="Screenshot 2025-08-16 152702" src="https://github.com/user-attachments/assets/bb6c50f5-292c-40c9-9827-867407373e35" />
+
+
+---
+
+## 8) View Student Details  
+1. Click a  **View student** action to open a detailed profile.  
+2. Review personal info, contact, and academic data.  
+
+<img width="1790" height="827" alt="Screenshot 2025-08-16 160219" src="https://github.com/user-attachments/assets/d76d8792-ecc5-42d8-91b8-1817bbd6ff69" />
+
+---
+
+## 9) Reports / Export (If Present)  
+1. Go to **Reports**.  
+2. Click **Export** → **CSV/Excel/PDF**.  
+
+<img width="1788" height="837" alt="Screenshot 2025-08-16 160339" src="https://github.com/user-attachments/assets/9a0bb9b6-cdb9-4f5a-a405-c5bbbf89181d" />
+
+---
+
+<img width="1808" height="828" alt="Screenshot 2025-08-16 160407" src="https://github.com/user-attachments/assets/93f631cd-0d1f-4808-9134-26a4ee25a952" />
+
+ 
+
+
+
 ## 📂 Project Structure
 
 ```
@@ -127,10 +223,6 @@ This project has no license.
 
 -   This project repository: [Student-Management-System-with-Python-and-MySQL](https://github.com/Prasad-Arugollu/Student-Management-System-with-Python-and-MySQL)
 
-## <footer>
-
--   Author: [Prasad-Arugollu](https://github.com/Prasad-Arugollu)
--   Contact: (Provide Contact Details If Available)
 
 **Student-Management-System-with-Python-and-MySQL** - [https://github.com/Prasad-Arugollu/Student-Management-System-with-Python-and-MySQL](https://github.com/Prasad-Arugollu/Student-Management-System-with-Python-and-MySQL)
 

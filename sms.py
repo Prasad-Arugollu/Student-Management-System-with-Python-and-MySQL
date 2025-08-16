@@ -42,12 +42,14 @@ def animate_slider():
 def connecting_database():
     def connect():
         global mycursor, con
+
+        # for users use this logins
         host = 'localhost'
         user = 'root'
         password = '1234'
 
         try:
-            con = pymysql.connect(host=host, user=user, password=password)
+            con = pymysql.connect(host=hostname_entry.get(), user=username_entry.get(), password=password_entry.get())
             mycursor = con.cursor()
         except Exception as e:
             messagebox.showerror("Error", f"Failed to connect:\n{e}", parent=pop_up)
@@ -500,3 +502,4 @@ student_table.config(show='headings')
 
 # Run App
 root.mainloop()
+

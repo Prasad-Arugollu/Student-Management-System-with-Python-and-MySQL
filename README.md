@@ -215,6 +215,13 @@ Contributions are welcome! Please follow these steps:
 4.  Push your changes to your fork. 📤
 5.  Submit a pull request. ✅
 
+## How to Use
+
+1. **Clone the Repository**: Clone this repository to your local machine.
+   ```sh
+   git clone https://github.com/Prasad-Arugollu/Student-Management-System-with-Python-and-MySQL.git
+   ```
+
 ## 📜 License
 
 This project has no license.
